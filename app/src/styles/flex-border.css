@@ -1,0 +1,42 @@
+
+.flex-border-row{
+	box-sizing: border-box;
+	display: flex;
+	
+}
+
+.flex-border-row-wrap{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.flex-border-row-centered{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+.flex-border-row-centered-wrap{
+    box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-border-column{
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		
+		
+}
+.flex-border-column-centered{
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;	
+		justify-content: center;
+		align-items: center;
+}

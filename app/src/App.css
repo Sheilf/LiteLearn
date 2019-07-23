@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: 0.13s all ease-in-out;
+  width: 100%;
+background-color: #FDC7FB;
+color: #bcffee;
+text-shadow: 2px 2px 15px #ca53c0;
+  
+}
+
+.App h1{
+  color: #bcffee;
+text-shadow: 2px 2px 15px #ca53c0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 35s linear;
+  height: 10vmin;
+  pointer-events: none;
+
+}
+
+.App #fade-container{
+  transition: 0.13s all ease-in-out;
+
+  width: 100%;
+  box-sizing: border-box;
+  height: 150px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

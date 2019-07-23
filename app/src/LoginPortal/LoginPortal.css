@@ -1,0 +1,91 @@
+.LoginPortal{
+    transition: 0.5s all ease-in-out;
+
+
+    position: absolute;
+    width: 100%;
+    left: 0;
+ 
+}
+
+.LoginPortal h3{
+    color: rgb(96, 255, 225);
+    text-shadow: 1px 1px 2px #ca53c0;
+    font-weight: bolder;
+
+}
+.fade-out{
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.fade-in{
+    opacity: 1;
+    visibility: visible;
+
+}
+.LoginPortal div{
+    
+}
+.LoginPortal div button{
+    box-sizing: border-box;
+    width: 125px;
+    height: 125px;
+    border-radius: 5%;
+    margin: 10px;
+    border: 1px solid rgba(255,244,182, 0.83);
+    background-color: #c8acff;
+    color: #bcffee;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: bolder;
+    box-shadow: 0 1px 1px rgba(255,244,182,0.55), 0 1px 1px rgba(255,244,182,0.55);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  outline: none;
+  font-size: 1rem;
+}
+
+.LoginPortal div button:hover{
+    box-shadow: 0 3px 6px rgba(202,83,192,0.16), 0 3px 6px rgba(202,83,192,0.23);
+    border-radius: 45%;
+    background-color: rgba(255,244,182, 0.83);
+
+}
+
+svg{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #c8acff;
+    transition: 0.12s all ease-in-out;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.55), 0 1px 1px rgba(0,0,0,0.55);
+    margin-right: 10px;
+}
+
+svg path{
+    color: white;
+ 
+}
+
+svg:hover{
+    background-color: black;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+}
+
+.input-course-codes{
+    outline: none;
+    border-radius: 10px;
+    border: 0px solid transparent;
+    height: 36px;
+    font-size: 24px;
+    padding: 12px;
+}
+.input-course-codes[type="text"]{
+    background-color:  #e49ee6;
+}
+.input-course-codes::placeholder{
+    color: #fec7a0;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #000;
+
+}
