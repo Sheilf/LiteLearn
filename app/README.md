@@ -9,7 +9,7 @@
   <li>Begin Feature X</li>
   <li>Update documentation</li>
   <li>Begin Feature Y</li>
-<ul>
+</ul>
 
 
 ## 2. Backlog
