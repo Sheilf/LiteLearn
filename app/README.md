@@ -15,13 +15,13 @@
 ## 2. Backlog
 Completed
 <ul>
-  <li>Portal front end</li>
+  <li>LoginPortal component front end</li>
 </ul>
 
 Backlog
 <ul>
-  <li>Mobile front end</li>
-  <li>Route/Portal into room ID</li>
+  <li>Update CSS for Mobile</li>
+  <li>Route/Portal into Room component</li>
   <li>Simple Google Auth and user DB</li>
 </ul>
 
