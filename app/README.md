@@ -1,6 +1,6 @@
 # Documentation Template First Draft
 
-1. Commits
+## 1. Commits
 <p> Commits should read like a project management work breakdown structure. Rather than to commit subcomponent updates, we will clearly define the path of the project.
 </p>
 <ul>
@@ -9,21 +9,22 @@
   <li>Begin Feature X</li>
   <li>Update documentation</li>
   <li>Begin Feature Y</li>
-  <li>Update documentation</li>
-  <li>Complete Component I</li>
-  <li>Update documentation</li>
-  <li>Complete Component J</li>
-  <li>Update documentation</li>
-  <li>Complete Feature X UI</li>
-  <li>Update documentation</li>
-  <li>Complete Feature Y UI</li>
-  <li>Update documentation</li>
-  <li>Create Wire frames</li>
-  <li>Update documentation</li>
-  <li>Implement front fnd</li>
-  <li>Update documentation</li>
-  <li>Implement back end Feature X</li>
-  <li>Update documentation</li>
-  <li>Implement back end Feature Y</li>
-  <li>Update documentation</li>
+<ul>
+
+
+## 2. Backlog
+Completed
+<ul>
+  <li>Portal front end</li>
 </ul>
+
+Backlog
+<ul>
+  <li>Mobile front end</li>
+  <li>Route/Portal into room ID</li>
+  <li>Simple Google Auth and user DB</li>
+</ul>
+
+## 3. Naming Conventions
+
+Pending update after database has been integrated.
