@@ -1,6 +1,5 @@
 import React from 'react';
 import './LoginPortal.css';
-import * as firebase from 'firebase';
 import '../firebase-config';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRedo } from '@fortawesome/free-solid-svg-icons'
@@ -21,14 +20,13 @@ class LoginPortal extends React.Component{
   render(){
 
     return (
-    <div id="id" className={"LoginPortal flex-border-column-centered "+this.props.anim}>
+    <section id="id" className={"LoginPortal flex-border-column-centered "+this.props.anim}>
         <h3>{this.props.instruction}</h3>
-     
+        <FontAwesomeIcon id="reset_portal" icon={faRedo} />
         {
             this.props.portal === "landing" ? 
             (
             <div>
-                <FontAwesomeIcon id="reset_portal" icon={faRedo} />
                 <button id="educator">Educators</button>
                 <button id='student'>Students</button>
             </div>
@@ -37,26 +35,27 @@ class LoginPortal extends React.Component{
             this.props.portal==="educator" ?
             (
             <div>
-                <FontAwesomeIcon id="reset_portal" icon={faRedo} />
+                
                 <button id="create_classroom">Create class</button>
-                <span>OR &nbsp;
-                <input type="text" placeholder="Enter course code" className="input-course-codes"/>
-                </span>
+                <p style={{color: '#60ffe1', fontWeight: 'bolder', textShadow: '1px 1px 1px #000'}}>OR</p>
+                <p>
+                <form>
+                    <input type="text" placeholder="Enter course code" className="input-course-codes"/>
+                </form>
+                </p>
             </div>
             )
             :
             this.props.portal==="student" ?
             ( 
-            <div>
-                <FontAwesomeIcon id="reset_portal" icon={faRedo} />
+            <form>
                 <input type="text" placeholder="edmonton#1458" className="input-course-codes"/>
-            </div>
+            </form>
             )
             :
             this.props.portal==="create_classroom" ?
             (
                 <form>
-                    <FontAwesomeIcon id="reset_portal" icon={faRedo} />
                     <input type="text" placeholder="create classroom code" className="input-course-codes"/>
                 </form>
             )
@@ -64,7 +63,7 @@ class LoginPortal extends React.Component{
             null
         }
         
-    </div>
+    </section>
       );
   }
 
